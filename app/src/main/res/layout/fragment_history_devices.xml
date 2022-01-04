@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nice.common.widget.StatefulFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/stateful_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:defaultShow="content"
+    app:emptyImage="@drawable/ic_baseline_list_24"
+    app:emptyText="@string/tip_history_devices_empty">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideOverlay"
+        android:clipToPadding="false"
+        android:padding="4dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+</com.nice.common.widget.StatefulFrameLayout>

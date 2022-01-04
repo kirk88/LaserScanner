@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/drawable/background_circle_button.xml" value="0.189" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/drawable/background_password_field.xml" value="0.189" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/drawable/bg_delete_button.xml" value="0.2435" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/drawable/bg_placeholder.xml" value="0.2435" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/drawable/bg_point_editor.xml" value="0.2435" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/drawable/ic_baseline_bluetooth_24.xml" value="0.189" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/layout/activity_device_detail.xml" value="0.25" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/layout/activity_generate_code.xml" value="0.365625" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/layout/activity_generate_password.xml" value="0.3421875" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/layout/activity_main.xml" value="0.29322916666666665" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/layout/dialog_degree_setting.xml" value="0.21235521235521235" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/layout/dialog_extract_history_data.xml" value="0.1" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/layout/dialog_extract_histroy_data.xml" value="0.365625" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/layout/dialog_look_data.xml" value="0.3390625" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/layout/fragment_discover_devices.xml" value="0.34427083333333336" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/layout/fragment_history_data.xml" value="0.334375" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/layout/fragment_history_devices.xml" value="0.34427083333333336" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/layout/item_divice.xml" value="0.25" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/layout/item_extract_file.xml" value="0.1" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/layout/item_history_data.xml" value="0.1" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/layout/item_histroy_data.xml" value="0.365625" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/layout/layout_discover_devices_empty.xml" value="0.365625" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/layout/layout_point_editor.xml" value="0.33" />
+        <entry key="..\:/Android/WorkPlace/LaserScanner/app/src/main/res/menu/menu_device_detail.xml" value="0.34270833333333334" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/drawable-v21/background_circle_button.xml" value="0.24010416666666667" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24010416666666667" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/drawable/background_edittext_round.xml" value="0.3015" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/drawable/background_loader_layout_button.xml" value="0.204" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/drawable/background_password_field.xml" value="0.281" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/drawable/bg_placeholder.xml" value="0.24010416666666667" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/drawable/ic_baseline_highlight_24.xml" value="0.2735" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/drawable/ic_baseline_list_24.xml" value="0.204" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/drawable/ic_baseline_nolight_24.xml" value="0.2735" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/drawable/ic_baseline_save_24.xml" value="0.1885" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/layout/activity_device_detail.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/layout/activity_generate_password.xml" value="0.28671875" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/layout/activity_login.xml" value="0.23125" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/layout/activity_main.xml" value="0.19427558257345492" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/layout/dialog_degree_setting.xml" value="0.22056159420289856" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/layout/dialog_device_radius_setting.xml" value="0.24497648567764002" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/layout/dialog_extract_history_data.xml" value="0.22780797101449277" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/layout/dialog_look_data.xml" value="0.2291577597263788" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/layout/fragment_discover_devices.xml" value="0.26171380329252847" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/layout/fragment_history_data.xml" value="0.22056159420289856" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/layout/fragment_history_devices.xml" value="0.22056159420289856" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/layout/item_divice.xml" value="0.22056159420289856" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/layout/item_extract_file.xml" value="0.2291577597263788" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/layout/item_history_data.xml" value="0.22056159420289856" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/layout/layout_discover_devices_empty.xml" value="0.24112868747327917" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/layout/layout_point_editor.xml" value="0.21203703703703702" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/menu/menu_device_detail.xml" value="0.26507054296707994" />
+        <entry key="..\:/AndroidStudio/WorkPlace/LaserScanner/app/src/main/res/menu/menu_main.xml" value="0.23229166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

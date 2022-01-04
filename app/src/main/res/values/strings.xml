@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">米距</string>
+
+    <string name="tab_discover_devices">发现设备</string>
+    <string name="tab_history_devices">历史设备</string>
+    <string name="tab_history_data">历史数据</string>
+
+    <string name="connect">连接</string>
+    <string name="connected">已连接</string>
+    <string name="bluetooth_scan_mode">扫描方式</string>
+    <string name="mode_new_version">新版</string>
+    <string name="mode_old_version">旧版</string>
+    <string name="mode_system">系统</string>
+    <string name="scanning_bluetooth">正在扫描蓝牙…</string>
+    <string name="scan_bluetooth">扫描蓝牙</string>
+    <string name="tip_scan_bluetooth_failed">蓝牙扫描失败</string>
+    <string name="tip_discover_devices_empty">暂无发现设备~</string>
+    <string name="tip_history_devices_empty">暂无历史设备~</string>
+    <string name="tip_history_data_empty">暂无历史数据~</string>
+    <string name="device_radius_setting">设置设备半径(mm)</string>
+    <string name="hint_device_radius_setting">请输入设备半径</string>
+    <string name="degree_setting">设置单次转动角度(能被100整除)</string>
+    <string name="hint_degree_setting">输入单次转动角度</string>
+    <string name="tip_degree_input_empty">请输入单次转动角度</string>
+    <string name="tip_degree_input_invalid">请输入有效的数值</string>
+    <string name="degree_setting_selector">设置单次转动角度</string>
+    <string name="degree_placeholder">角度：— —</string>
+    <string name="distance_placeholder">距离：— —</string>
+    <string name="battery_placeholder">电量：— —</string>
+    <string name="degree">角度：%.3f°</string>
+    <string name="distance">距离：%.3fm</string>
+    <string name="battery">电量：%d%%</string>
+    <string name="dialog_alert_title">提示</string>
+    <string name="tip_permissions_denied">为了正常使用APP，请前往授予相关权限！</string>
+    <string name="dialog_button_no">不了</string>
+    <string name="dialog_button_go_setting">去设置</string>
+    <string name="dialog_button_save_and_exit">保存并退出</string>
+    <string name="dialog_button_exit">退出</string>
+    <string name="dialog_button_save">保存</string>
+    <string name="tip_data_not_save">当前数据还未保存，是否确认退出？</string>
+    <string name="tip_data_save">是否确认保存当前数据？</string>
+    <string name="tip_no_data_to_save">没有数据可保存</string>
+    <string name="tip_reset_canvas">重置画布将会清空当前数据，是否继续？</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="connect_bluetooth">连接蓝牙</string>
+    <string name="bluetooth_connecting">正在连接蓝牙…</string>
+    <string name="start_or_stop_peripheral">启/停设备</string>
+    <string name="save_scan_data">保存扫描数据</string>
+    <string name="tip_bluetooth_connect_success">蓝牙连接成功</string>
+    <string name="tip_bluetooth_connect_failed">蓝牙连接失败</string>
+    <string name="tip_bluetooth_disconnected">蓝牙连接断开</string>
+    <string name="tip_peripheral_started">设备已启动</string>
+    <string name="tip_peripheral_stopped">设备已停止</string>
+    <string name="tip_peripheral_light_on">激光已开启</string>
+    <string name="tip_peripheral_light_off">激光已关闭</string>
+    <string name="open_device">启动设备</string>
+    <string name="device_opening">正在启动设备</string>
+    <string name="device_opened">设备启动成功</string>
+    <string name="select_date">选择日期</string>
+    <string name="share">分享</string>
+    <string name="look">查看</string>
+    <string name="png">PNG</string>
+    <string name="svg">SVG</string>
+    <string name="txt">TXT</string>
+    <string name="tip_file_not_exists">文件不存在</string>
+    <string name="login">登录</string>
+    <string name="hint_code">请输入注册码</string>
+    <string name="generate_code">生成注册码</string>
+    <string name="generate">生成</string>
+    <string name="hint_password">请输入密码</string>
+    <string name="prompt_empty_password">请输入密码</string>
+    <string name="prompt_error_password">密码错误</string>
+    <string name="prompt_invalid_code">无效的注册码</string>
+    <string name="prompt_empty_code">请输入注册码</string>
+    <string name="prompt_share_code_empty">请先生成注册码</string>
+    <string name="extract">导出</string>
+    <string name="title_extract_dialog">导出数据</string>
+    <string name="tip_extract_succeed">导出成功</string>
+    <string name="tip_extract_failed">导出失败</string>
+    <string name="data_from">来自：%1$s(%2$s)</string>
+    <string name="reset_canvas">重置画布</string>
+    <string name="device_radius">设备半径</string>
+    <string name="light_switcher">激光开关</string>
+    <string name="tip_distance_error">%s，请重新测量</string>
+    <string name="action_more">更多</string>
+
+    <string-array name="degrees_to_select">
+        <item>1°</item>
+        <item>3°</item>
+        <item>10°</item>
+        <item>15°</item>
+    </string-array>
+</resources>

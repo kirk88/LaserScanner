@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="AlwaysShowAction">
+
+    <item
+        android:id="@+id/action_scan"
+        android:icon="@drawable/ic_baseline_scan_24"
+        android:title="@string/scan_bluetooth"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_scan_mode"
+        android:title="@string/bluetooth_scan_mode">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_change_new"
+                    android:title="@string/mode_new_version" />
+                <item
+                    android:id="@+id/action_change_old"
+                    android:title="@string/mode_old_version" />
+                <item
+                    android:id="@+id/action_change_system"
+                    android:title="@string/mode_system" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_generate_password"
+        android:title="@string/generate_code"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/action_device_radius"
+        android:title="@string/device_radius"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/action_date"
+        android:icon="@drawable/ic_baseline_date_range_24"
+        android:title="@string/select_date"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LaserScanner" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/purple_500</item>
+        <item name="colorSecondaryVariant">@color/purple_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="titleAppBarStyle">@style/Widget.LaserScanner.TitleAppBar</item>
+    </style>
+
+    <style name="Theme.LaserScanner.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Widget.Divider.Line.Horizontal" parent="android:Widget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">?attr/dividerHorizontal</item>
+    </style>
+
+    <style name="Widget.Divider.Line.Vertical" parent="android:Widget">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">?attr/dividerVertical</item>
+    </style>
+
+    <style name="Theme.LaserScanner.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.LaserScanner.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Widget.LaserScanner.TitleAppBar" parent="Widget.MaterialComponents.AppBarLayout.Primary">
+        <item name="provideActionBar">true</item>
+        <item name="popupTheme">@style/Theme.LaserScanner.PopupOverlay</item>
+        <item name="navigationAsUp">true</item>
+    </style>
+</resources>

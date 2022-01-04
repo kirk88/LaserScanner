@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.nice.common.widget.TitleAppBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_titleappbar_round"
+        android:theme="@style/Theme.LaserScanner.AppBarOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dp"
+            android:paddingBottom="12dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_degree"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/degree_placeholder"
+                android:textColor="@color/white" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_distance"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/distance_placeholder"
+                android:textColor="@color/white" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_battery"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/battery_placeholder"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </com.nice.common.widget.TitleAppBar>
+
+    <com.laser.scanner.ui.widget.CanvasView
+        android:id="@+id/canvas_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/side_action_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar"
+        android:visibility="invisible"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="8dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="?attr/colorPrimary"
+        app:cardCornerRadius="8dp">
+
+
+        <LinearLayout
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btn_action_connect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/start_or_stop_peripheral"
+                android:minHeight="56dp"
+                android:src="@drawable/ic_baseline_start_24" />
+
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btn_action_degree_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/save_scan_data"
+                android:minHeight="56dp"
+                android:src="@drawable/ic_baseline_degrees_ccw_24" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btn_action_reset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/reset_canvas"
+                android:minHeight="56dp"
+                android:src="@drawable/ic_baseline_reset_24" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btn_action_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/save_scan_data"
+                android:minHeight="56dp"
+                android:src="@drawable/ic_baseline_save_24" />
+
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btn_action_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/light_switcher"
+                android:minHeight="56dp"
+                android:src="@drawable/ic_baseline_highlight_24"
+                app:tint="#888" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>
